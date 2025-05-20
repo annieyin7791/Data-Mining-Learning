@@ -11,8 +11,8 @@
 - encoding
 - feature scaling
 
-`scaler = StandardScaler()`  
-`scaler.fit(X_train)`
+`scaler = StandardScaler()  
+ scaler.fit(X_train)`
 
 ## Steps used only on training set
 
