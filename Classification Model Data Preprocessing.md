@@ -11,9 +11,10 @@
 - encoding
 - feature scaling
 
-`scaler = StandardScaler()`
- `scaler.fit(X_train)`
+`scaler = StandardScaler()`  
+`scaler.fit(X_train)`
 
 ## Steps used only on training set
-
+- Outliers handling: If the outliers are removed from the testing set, it would violate the real-world data distribution
+- Imbalanced data handling (e.g. resampling)
 `ddddd`
